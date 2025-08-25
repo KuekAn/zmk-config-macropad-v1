@@ -5,6 +5,7 @@
 / {
     keymap {
         compatible = "zmk,keymap";
+        
         default {
             bindings = <
                 &kp KP_NUM &kp KP_DIV &kp KP_MULT &kp KP_MINUS
