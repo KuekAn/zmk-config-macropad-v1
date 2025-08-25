@@ -8,11 +8,7 @@
 
         default {
             bindings = <
-                &kp KP_NUM &kp KP_DIV &trans      &trans
-                &kp KP_N7  &kp KP_N8  &kp KP_N9   &trans
-                &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS
-                &kp KP_N1  &kp KP_N2  &kp KP_N3   &trans
-                &trans     &kp KP_N0  &kp KP_DOT  &kp KP_ENTER
+                &kp KP_N1
             >;
         };
     };
