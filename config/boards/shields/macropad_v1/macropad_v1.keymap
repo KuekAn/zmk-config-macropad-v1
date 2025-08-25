@@ -8,7 +8,7 @@
 
         default {
             bindings = <
-                &kp A
+                &kp A &kp W &kp E &kp R
                 &trans
                 &trans
                 &trans
