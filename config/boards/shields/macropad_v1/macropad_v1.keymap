@@ -8,7 +8,11 @@
 
         default {
             bindings = <
-                &kp KP_N1
+                &kp A
+                &trans
+                &trans
+                &trans
+                &kp B
             >;
         };
     };
