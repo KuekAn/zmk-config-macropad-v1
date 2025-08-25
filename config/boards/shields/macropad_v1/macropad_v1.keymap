@@ -9,10 +9,10 @@
         default {
             bindings = <
                 &kp Q   &kp W   &kp E   &kp R
-                &kp A   &kp S   &trans  &trans
+                &kp A   &kp S   &kp D   &kp F
                 &kp Z   &kp X   &kp C   &kp V
-                &kp N1  &kp N2  &kp N3  &trans
-                &kp B   &kp N   &kp M   &trans
+                &kp N1  &kp N2  &kp N3  &kp N4
+                &kp B   &kp N   &kp M   &kp L
             >;
         };
     };
