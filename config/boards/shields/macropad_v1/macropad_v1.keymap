@@ -17,12 +17,18 @@
         };
 
         bluetoothLayer {    //Layer 1
+            //  | -     | -     | PowerCycle    | Bootloader    |
+            //  | -     | '0'   | 'T'           | -             |
+            //  | BT3   | BT4   | -             | -             |
+            //  | BT0   | BT1   | BT2           | -             |
+            //  | -             | Clr           | ClrAll        |
+
             bindings = <
                 &trans      &trans      &sys_reset      &bootloader
                 &trans      &to 0      &kp T      &trans
-                &bt BT_SEL 4      &trans      &trans      &trans
-                &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &trans
-                &trans            &bt BT_SEL 0      &bt BT_CLR        &bt BT_CLR_ALL      
+                &bt BT_SEL 3      &bt BT_SEL 4      &trans      &trans
+                &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &trans
+                &trans            &trans      &bt BT_CLR        &bt BT_CLR_ALL
             >;
         };
     };
