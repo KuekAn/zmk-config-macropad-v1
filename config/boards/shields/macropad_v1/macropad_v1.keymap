@@ -18,7 +18,7 @@
 
         bluetoothLayer {    //Layer 1
             bindings = <
-                &trans      &trans      &trans      &bootloader
+                &trans      &trans      &sys_reset      &bootloader
                 &trans      &to 0      &kp T      &trans
                 &bt BT_SEL 4      &trans      &trans      &trans
                 &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &trans
